@@ -18,7 +18,7 @@ namespace MovieSystem
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Jai Shree Ram\Documents\MovieSystem.mdf;Integrated Security=True;Connect Timeout=30;");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename= "+Application.StartupPath+"\\MovieSystem.mdf;Integrated Security=True;Connect Timeout=30;");
         SqlCommand comm;
         private SqlDataAdapter adapt;
 
@@ -63,12 +63,18 @@ namespace MovieSystem
         }
         public void ShowcustRecord()
         {
+            try { 
             con.Open();
             DataTable dt = new DataTable();
             adapt = new SqlDataAdapter("select * from Customer", con);
             adapt.Fill(dt);
             datagridviewCustomer.DataSource = dt;
             con.Close();
+        }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
 
         public void ShowMoviesRecord()

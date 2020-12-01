@@ -7,3 +7,12 @@ c:\users\jai shree ram\documents\visual studio 2015\Projects\MovieSystem\MovieSy
 c:\users\jai shree ram\documents\visual studio 2015\Projects\MovieSystem\MovieSystem\obj\Debug\MovieSystem.csproj.GenerateResource.Cache
 c:\users\jai shree ram\documents\visual studio 2015\Projects\MovieSystem\MovieSystem\obj\Debug\MovieSystem.exe
 c:\users\jai shree ram\documents\visual studio 2015\Projects\MovieSystem\MovieSystem\obj\Debug\MovieSystem.pdb
+C:\MovieSystem\MovieSystem\bin\Debug\MovieSystem.exe.config
+C:\MovieSystem\MovieSystem\obj\Debug\MovieSystem.exe
+C:\MovieSystem\MovieSystem\obj\Debug\MovieSystem.pdb
+C:\MovieSystem\MovieSystem\bin\Debug\MovieSystem.exe
+C:\MovieSystem\MovieSystem\bin\Debug\MovieSystem.pdb
+C:\MovieSystem\MovieSystem\obj\Debug\MovieSystem.csprojResolveAssemblyReference.cache
+C:\MovieSystem\MovieSystem\obj\Debug\MovieSystem.Form1.resources
+C:\MovieSystem\MovieSystem\obj\Debug\MovieSystem.Properties.Resources.resources
+C:\MovieSystem\MovieSystem\obj\Debug\MovieSystem.csproj.GenerateResource.Cache
